@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Full background linear gradient (light yellow to dark purple) -->
+    <path android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="0"
+                android:endX="54"
+                android:endY="108"
+                android:type="linear">
+                <item
+                    android:color="#FFEB3B"
+                    android:offset="0.0" />
+                <item
+                    android:color="#311B92"
+                    android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Variable-sized translucent white bubbles (Max diameter 18 < 1/5 of 108) -->
+    <!-- Large bubble (r = 9, diameter 18) -->
+    <path
+        android:fillColor="#26FFFFFF"
+        android:pathData="M24,66 a9,9 0 1,0 0,18 a9,9 0 1,0 0,-18"
+        android:strokeColor="#50FFFFFF"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#60FFFFFF"
+        android:pathData="M21,70 a2,2 0 1,0 0,4 a2,2 0 1,0 0,-4" />
+
+    <!-- Medium-large bubble (r = 7.5, diameter 15) -->
+    <path
+        android:fillColor="#22FFFFFF"
+        android:pathData="M82,52.5 a7.5,7.5 0 1,0 0,15 a7.5,7.5 0 1,0 0,-15"
+        android:strokeColor="#48FFFFFF"
+        android:strokeWidth="1" />
+    <path
+        android:fillColor="#60FFFFFF"
+        android:pathData="M79.5,56 a1.5,1.5 0 1,0 0,3 a1.5,1.5 0 1,0 0,-3" />
+
+    <!-- Medium bubble (r = 6, diameter 12) -->
+    <path
+        android:fillColor="#2AFFFFFF"
+        android:pathData="M76,19 a6,6 0 1,0 0,12 a6,6 0 1,0 0,-12"
+        android:strokeColor="#58FFFFFF"
+        android:strokeWidth="1" />
+
+    <!-- Medium bubble (r = 5.5, diameter 11) -->
+    <path
+        android:fillColor="#2EFFFFFF"
+        android:pathData="M32,24.5 a5.5,5.5 0 1,0 0,11 a5.5,5.5 0 1,0 0,-11"
+        android:strokeColor="#60FFFFFF"
+        android:strokeWidth="1" />
+
+    <!-- Small-medium bubble (r = 4.5, diameter 9) -->
+    <path
+        android:fillColor="#20FFFFFF"
+        android:pathData="M62,77.5 a4.5,4.5 0 1,0 0,9 a4.5,4.5 0 1,0 0,-9"
+        android:strokeColor="#45FFFFFF"
+        android:strokeWidth="0.8" />
+
+    <!-- Small bubble (r = 4, diameter 8) -->
+    <path
+        android:fillColor="#24FFFFFF"
+        android:pathData="M48,58 a4,4 0 1,0 0,8 a4,4 0 1,0 0,-8"
+        android:strokeColor="#50FFFFFF"
+        android:strokeWidth="0.8" />
+
+    <!-- Small bubble (r = 3.5, diameter 7) -->
+    <path
+        android:fillColor="#28FFFFFF"
+        android:pathData="M18,46.5 a3.5,3.5 0 1,0 0,7 a3.5,3.5 0 1,0 0,-7"
+        android:strokeColor="#55FFFFFF"
+        android:strokeWidth="0.8" />
+
+    <!-- Tiny bubble (r = 3, diameter 6) -->
+    <path
+        android:fillColor="#30FFFFFF"
+        android:pathData="M88,85 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6"
+        android:strokeColor="#60FFFFFF"
+        android:strokeWidth="0.8" />
+
+    <!-- Tiny bubble (r = 3, diameter 6) -->
+    <path
+        android:fillColor="#26FFFFFF"
+        android:pathData="M68,41 a3,3 0 1,0 0,6 a3,3 0 1,0 0,-6"
+        android:strokeColor="#50FFFFFF"
+        android:strokeWidth="0.8" />
+
+    <!-- Extra tiny bubble (r = 2.5, diameter 5) -->
+    <path
+        android:fillColor="#30FFFFFF"
+        android:pathData="M40,87.5 a2.5,2.5 0 1,0 0,5 a2.5,2.5 0 1,0 0,-5" />
+</vector>
